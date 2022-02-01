@@ -10,7 +10,7 @@
         }
     ],
     "dist": {
-        "url": "https://github.com/difra-org/lib-unify/archive/8.0.0.zip",
+        "url": "https://github.com/difra-org/lib-unify/archive/refs/tags/8.0.0.zip",
         "type": "zip"
     },
     "repositories": [
