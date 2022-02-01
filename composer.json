@@ -20,9 +20,6 @@
         }
     ],
     "autoload": {
-        "classmap": [
-            "src/Wordforms.php"
-        ],
         "psr-4": {
             "Difra\\Unify\\": "src/"
         }
