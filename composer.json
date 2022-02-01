@@ -1,0 +1,30 @@
+{
+    "name": "difra/lib-unify",
+    "description": "Class-self-described ORM library",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Ed Kutuev",
+            "email": "ed@napych.com"
+        }
+    ],
+    "dist": {
+        "url": "https://github.com/difra-org/lib-unify/archive/1.0.0.zip",
+        "type": "zip"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:difra-org/lib-unify.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/Wordforms.php"
+        ],
+        "psr-4": {
+            "Difra\\Unify\\": "src/"
+        }
+    }
+}
